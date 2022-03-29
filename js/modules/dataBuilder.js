@@ -1,6 +1,6 @@
 function dataBuilder() {
   //DATA
-  const deadline = "2022-03-15";
+  const deadline = "2050-03-15";
   function getTime(endtime) {
     const total = Date.parse(endtime) - Date.parse(new Date()),
       days = Math.floor(total / (1000 * 60 * 60 * 24)),
